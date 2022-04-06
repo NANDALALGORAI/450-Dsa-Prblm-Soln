@@ -11,3 +11,12 @@ pair<long long, long long> getMinMax(long long v[], int n) {
     }
     return make_pair(min__,max__);
 }
+
+/*
+Time Complexity: Look carefully here every element is checking twice for min and max,
+Let, n=5, then total comparison 2*N = 2*5 = 10.
+So, Complexity O(2N)
+
+Let's Optimized it.
+
+*/
